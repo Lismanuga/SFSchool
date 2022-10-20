@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a78a4bbe-d7b2-4781-bb1b-131426677e07" name="Changes" comment="init commit">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/illuminatedCloud.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/All_Tests.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IlluminatedCloud/SalesforceAvenga/OfflineSymbolTable.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SalesforceAvenga.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/DriverDTO.cls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/DriverDTO.cls-meta.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/FormulaOneDAO.cls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/FormulaOneDAO.cls-meta.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/FormulaOneServices.cls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/FormulaOneServices.cls-meta.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/RaceResultTriggerHandler.cls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/RaceResultTriggerHandler.cls-meta.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/formulaOneDAOTest.cls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/formulaOneDAOTest.cls-meta.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lwc/lWCTest/lWCTest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lwc/lWCTest/lWCTest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lwc/lWCTest/lWCTest.js-meta.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lwc/lWCTest/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/package.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/triggers/RaceResultTrigger.trigger" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/triggers/RaceResultTrigger.trigger-meta.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Apex Trigger" />
+        <option value="Apex Class" />
+        <option value="Apex Unit Test Class" />
+        <option value="Apex Metadata" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IlluminatedCloudWorkspaceSettings">
+    <option name="moduleWorkspaceSettings">
+      <map>
+        <entry key="SalesforceAvenga">
+          <value>
+            <ModuleWorkspaceSettings>
+              <option name="moduleContentsLastModified" value="1665578057256" />
+            </ModuleWorkspaceSettings>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="projectWorkspaceSettings">
+      <ProjectWorkspaceSettings>
+        <option name="anonymousApexSettings">
+          <AnonymousApexSettings>
+            <option name="savedDocuments">
+              <list>
+                <AnonymousApexSavedDocument>
+                  <option name="apexLogLevel" value="FINEST" />
+                  <option name="body" value="List&lt;Race_Result__c&gt; raceResults = new List&lt;Race_Result__c&gt;([&#10;        SELECT Racer__c, Position__c , Is_Fastest_Lap__c&#10;        FROM Race_Result__c&#10;]);&#10;&#10;List&lt;Driver__c&gt; drivers = new List&lt;Driver__c&gt;([&#10;        SELECT Hat_Tricks__c&#10;        FROM Driver__c&#10;]);&#10;&#10;for (Driver__c driver : drivers){&#10;    driver.Hat_Tricks__c = 0;&#10;    for (Race_Result__c rr : raceResults){&#10;        if (rr.Racer__c == driver.Id &amp;&amp; (rr.Position__c == 1 &amp;&amp; rr.Is_Fastest_Lap__c == true)) {&#10;            driver.Hat_Tricks__c += 1;&#10;&#10;        }&#10;    }&#10;}&#10;update drivers;" />
+                  <option name="name" value="Anonymous Apex 1" />
+                </AnonymousApexSavedDocument>
+              </list>
+            </option>
+          </AnonymousApexSettings>
+        </option>
+        <option name="connectionWorkspaceSettings">
+          <map>
+            <entry key="SalesforceAvenga">
+              <value>
+                <ConnectionWorkspaceSettings>
+                  <option name="buildSuccessDatesBySourceRootRelativePath">
+                    <map>
+                      <entry key="APEXCLASS:DRIVERDTO" value="1665839627151" />
+                      <entry key="APEXCLASS:FORMULAONEDAO" value="1666015941502" />
+                      <entry key="APEXCLASS:FORMULAONEDAOTEST" value="1666264291000" />
+                      <entry key="APEXCLASS:FORMULAONESERVICES" value="1666015935136" />
+                      <entry key="APEXCLASS:RACERESULTTRIGGERHANDLER" value="1666262473351" />
+                      <entry key="APEXTRIGGER:RACERESULTTRIGGER" value="1666219016167" />
+                      <entry key="LIGHTNINGCOMPONENTBUNDLE:LWCTEST" value="1665642085000" />
+                    </map>
+                  </option>
+                  <option name="lastBuildScope" value="CONTEXT" />
+                  <option name="lastBuildViewToggles">
+                    <map>
+                      <entry key="DEPLOY">
+                        <value>
+                          <BuildViewToggles>
+                            <option name="showLocalAndServer" value="true" />
+                            <option name="showLocalOnly" value="true" />
+                            <option name="showServerOnly" value="false" />
+                            <option name="showSubscribedByParent" value="true" />
+                            <option name="showSubscribedOnly" value="true" />
+                          </BuildViewToggles>
+                        </value>
+                      </entry>
+                    </map>
+                  </option>
+                  <option name="lastDeploymentOptions">
+                    <DeploymentOptions />
+                  </option>
+                </ConnectionWorkspaceSettings>
+              </value>
+            </entry>
+          </map>
+        </option>
+        <option name="retrieveAndMergeDefault" value="false" />
+        <option name="soqlQuerySettings">
+          <SoqlQuerySettings>
+            <option name="resultsSplitterProportion" value="0.8685121" />
+            <option name="savedDocuments">
+              <list>
+                <SoqlQuerySavedDocument>
+                  <option name="body" value="SELECT Racer__c, Position__c, Grand_Prix__c&#10;FROM Race_Result__c" />
+                  <option name="name" value="SOQL Query 1" />
+                </SoqlQuerySavedDocument>
+              </list>
+            </option>
+          </SoqlQuerySettings>
+        </option>
+      </ProjectWorkspaceSettings>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2G2Dzxb6vi7noTKLtEot4LGh1Vk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="1" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Salesforce/Courses/SalesforceAvenga&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a78a4bbe-d7b2-4781-bb1b-131426677e07" name="Changes" comment="" />
+      <created>1665578053233</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1665578053233</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="57c81237-99fb-42d2-8f19-ee2433fe6c88">
+          <value>
+            <State />
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="init commit" />
+  </component>
+</project>
