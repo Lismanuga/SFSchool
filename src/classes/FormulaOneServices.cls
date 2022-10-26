@@ -1,4 +1,5 @@
 public class FormulaOneServices {
+
     public static String generateKey(SObject record, List<SObjectField> fields, String separator){
              String result = '';
         for (Integer i = 0; i < fields.size(); i++){
@@ -13,7 +14,7 @@ public class FormulaOneServices {
     }
 
     public static Boolean isHatTrick (Race_Result__c raceResult){
-        if (raceResult.Position__c == 1 && raceResult.Grid__c == 1 && raceResult.is_Fastest_Lap__c == true) {
+        if (raceResult.Position__c == 1 && raceResult.Grid__c == 1 && raceResult.Is_Fastest_Lap__c) {
             return true;
         } else {
             return false;
@@ -29,14 +30,16 @@ public class FormulaOneServices {
 
 
     public static void createDrivers(List<DriverDTO> drivers){
+        List<Driver__c> driversList = new List<Driver__c>();
         for (DriverDTO driverDTO : drivers){
             Driver__c driver = new Driver__c(
                     First_Name__c = driverDTO.firstName,
                     Last_Name__c = driverDTO.lastName,
                     Age__c = driverDTO.age
             );
-            insert driver;
+            driversList.add(driver);
         }
+        insert driversList;
     }
 
 
@@ -84,7 +87,7 @@ public class FormulaOneServices {
                 currentRace.Podium_Third__c = rr.Racer__c;
                 System.debug('Update 3rd podium in ' + rr.Grand_Prix__r.Name);
 
-            } else {
+                } else {
                 System.debug('Nothing to change');
             }
             racesIdsToRaces.put(rr.Grand_Prix__c, currentRace);
@@ -97,30 +100,3 @@ public class FormulaOneServices {
     }
 
 }
-/*
-        FormulaOneServices.createDriver('Yarik','Vodila',35);
-
-        List<DriverDTO> driverDTOS = new List<DriverDTO>();
-        DriverDTO driverDTO1 = new DriverDTO();
-        driverDTO1.age=22;
-        driverDTO1.firstName='Joseph';
-        driverDTO1.lastName='Baiden';
-        DriverDTO driverDTO2 = new DriverDTO();
-        driverDTO1.age=23;
-        driverDTO1.firstName='Donald';
-        driverDTO1.lastName='Tramp';
-        driverDTOS.add(driverDTO1);
-        driverDTOS.add(driverDTO2);
-        FormulaOneServices.createDrivers(driverDTOS);
-
-        FormulaOneServices.updateDriverName('a027Q000003SQvXQAW', 'Vasyl', 'Dyb');
-
-        Set<Id> ids = new Set<Id>();
-        for (Race__c race : [
-                SELECT Id
-                FROM Race__c
-        ]){
-            ids.add(race.Id);
-        }
-        FormulaOneServices.updateGrandPrixWinners(ids);
- */

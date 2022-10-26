@@ -2,32 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a78a4bbe-d7b2-4781-bb1b-131426677e07" name="Changes" comment="init commit">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/illuminatedCloud.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/All_Tests.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IlluminatedCloud/SalesforceAvenga/OfflineSymbolTable.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SalesforceAvenga.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classes/DriverDTO.cls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classes/DriverDTO.cls-meta.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classes/FormulaOneDAO.cls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classes/FormulaOneDAO.cls-meta.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classes/FormulaOneServices.cls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classes/FormulaOneServices.cls-meta.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classes/RaceResultTriggerHandler.cls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classes/RaceResultTriggerHandler.cls-meta.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classes/formulaOneDAOTest.cls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classes/formulaOneDAOTest.cls-meta.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lwc/lWCTest/lWCTest.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lwc/lWCTest/lWCTest.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lwc/lWCTest/lWCTest.js-meta.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lwc/lWCTest/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/package.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/triggers/RaceResultTrigger.trigger" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/triggers/RaceResultTrigger.trigger-meta.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/FormulaOneServiceTest.cls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/FormulaOneServiceTest.cls-meta.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/RaceResultTriggerTest.cls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/RaceResultTriggerTest.cls-meta.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/TestDataFactory.cls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/TestDataFactory.cls-meta.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/wonRaceResultController.cls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/wonRaceResultController.cls-meta.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lwc/wonRaceResult/wonRaceResult.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lwc/wonRaceResult/wonRaceResult.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lwc/wonRaceResult/wonRaceResult.js-meta.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/DriverDTO.cls" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/DriverDTO.cls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/DriverDTO.cls-meta.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/DriverDTO.cls-meta.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/FormulaOneDAO.cls" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/FormulaOneDAO.cls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/FormulaOneDAO.cls-meta.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/FormulaOneDAO.cls-meta.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/FormulaOneServices.cls" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/FormulaOneServices.cls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/RaceResultTriggerHandler.cls" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/RaceResultTriggerHandler.cls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/RaceResultTriggerHandler.cls-meta.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/RaceResultTriggerHandler.cls-meta.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/formulaOneDAOTest.cls" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/FormulaOneDAOTest.cls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/formulaOneDAOTest.cls-meta.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/FormulaOneDAOTest.cls-meta.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/triggers/RaceResultTrigger.trigger" beforeDir="false" afterPath="$PROJECT_DIR$/src/triggers/RaceResultTrigger.trigger" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/triggers/RaceResultTrigger.trigger-meta.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/triggers/RaceResultTrigger.trigger-meta.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,8 +35,14 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Apex Trigger" />
-        <option value="Apex Class" />
         <option value="Apex Unit Test Class" />
+        <option value="Lightning Component" />
+        <option value="Lightning Web Component SVG" />
+        <option value="Lightning Web Component Shared JavaScript" />
+        <option value="Class" />
+        <option value="Apex Class" />
+        <option value="Lightning Web Component HTML" />
+        <option value="Lightning Web Component JavaScript" />
         <option value="Apex Metadata" />
       </list>
     </option>
@@ -66,8 +69,7 @@
             <option name="savedDocuments">
               <list>
                 <AnonymousApexSavedDocument>
-                  <option name="apexLogLevel" value="FINEST" />
-                  <option name="body" value="List&lt;Race_Result__c&gt; raceResults = new List&lt;Race_Result__c&gt;([&#10;        SELECT Racer__c, Position__c , Is_Fastest_Lap__c&#10;        FROM Race_Result__c&#10;]);&#10;&#10;List&lt;Driver__c&gt; drivers = new List&lt;Driver__c&gt;([&#10;        SELECT Hat_Tricks__c&#10;        FROM Driver__c&#10;]);&#10;&#10;for (Driver__c driver : drivers){&#10;    driver.Hat_Tricks__c = 0;&#10;    for (Race_Result__c rr : raceResults){&#10;        if (rr.Racer__c == driver.Id &amp;&amp; (rr.Position__c == 1 &amp;&amp; rr.Is_Fastest_Lap__c == true)) {&#10;            driver.Hat_Tricks__c += 1;&#10;&#10;        }&#10;    }&#10;}&#10;update drivers;" />
+                  <option name="body" value="List&lt;DriverDTO&gt; driverDTOS = new List&lt;DriverDTO&gt;();&#10;DriverDTO driverDTO = new DriverDTO();&#10;DriverDTO driverDTO2 = new DriverDTO();&#10;driverDTO.firstName = 'Donald';&#10;driverDTO.lastName = 'Tramp';&#10;driverDTO.age = 30;&#10;driverDTO2.firstName = 'Joseph';&#10;driverDTO2.lastName = 'Baiden';&#10;driverDTO2.age = 33;&#10;driverDTOS.add(driverDTO);&#10;driverDTOS.add(driverDTO2);&#10;&#10;FormulaOneServices.createDrivers(driverDTOS);" />
                   <option name="name" value="Anonymous Apex 1" />
                 </AnonymousApexSavedDocument>
               </list>
@@ -83,11 +85,17 @@
                     <map>
                       <entry key="APEXCLASS:DRIVERDTO" value="1665839627151" />
                       <entry key="APEXCLASS:FORMULAONEDAO" value="1666015941502" />
-                      <entry key="APEXCLASS:FORMULAONEDAOTEST" value="1666264291000" />
-                      <entry key="APEXCLASS:FORMULAONESERVICES" value="1666015935136" />
-                      <entry key="APEXCLASS:RACERESULTTRIGGERHANDLER" value="1666262473351" />
+                      <entry key="APEXCLASS:FORMULAONEDAOTEST" value="1666444537897" />
+                      <entry key="APEXCLASS:FORMULAONESERVICES" value="1666366805643" />
+                      <entry key="APEXCLASS:FORMULAONESERVICETEST" value="1666433902455" />
+                      <entry key="APEXCLASS:RACERESULTTRIGGERHANDLER" value="1666444469940" />
+                      <entry key="APEXCLASS:RACERESULTTRIGGERTEST" value="1666616255933" />
+                      <entry key="APEXCLASS:TESTDATAFACTORY" value="1666444550891" />
+                      <entry key="APEXCLASS:WONRACERESULTCONTROLLER" value="1666734336683" />
                       <entry key="APEXTRIGGER:RACERESULTTRIGGER" value="1666219016167" />
-                      <entry key="LIGHTNINGCOMPONENTBUNDLE:LWCTEST" value="1665642085000" />
+                      <entry key="LIGHTNINGCOMPONENTBUNDLE:LWCTEST" value="1666698330000" />
+                      <entry key="LIGHTNINGCOMPONENTBUNDLE:RALATEDRACERESULT" value="1666687006144" />
+                      <entry key="LIGHTNINGCOMPONENTBUNDLE:WONRACERESULT" value="1666734698709" />
                     </map>
                   </option>
                   <option name="lastBuildScope" value="CONTEXT" />
@@ -98,7 +106,18 @@
                           <BuildViewToggles>
                             <option name="showLocalAndServer" value="true" />
                             <option name="showLocalOnly" value="true" />
-                            <option name="showServerOnly" value="false" />
+                            <option name="showServerOnly" value="true" />
+                            <option name="showSubscribedByParent" value="true" />
+                            <option name="showSubscribedOnly" value="true" />
+                          </BuildViewToggles>
+                        </value>
+                      </entry>
+                      <entry key="RETRIEVE">
+                        <value>
+                          <BuildViewToggles>
+                            <option name="showLocalAndServer" value="false" />
+                            <option name="showLocalOnly" value="false" />
+                            <option name="showServerOnly" value="true" />
                             <option name="showSubscribedByParent" value="true" />
                             <option name="showSubscribedOnly" value="true" />
                           </BuildViewToggles>
@@ -117,11 +136,11 @@
         <option name="retrieveAndMergeDefault" value="false" />
         <option name="soqlQuerySettings">
           <SoqlQuerySettings>
-            <option name="resultsSplitterProportion" value="0.8685121" />
+            <option name="resultsSplitterProportion" value="0.6360856" />
             <option name="savedDocuments">
               <list>
                 <SoqlQuerySavedDocument>
-                  <option name="body" value="SELECT Racer__c, Position__c, Grand_Prix__c&#10;FROM Race_Result__c" />
+                  <option name="body" value="SELECT&#10;        Id,&#10;        Position__c,&#10;        Racer__c,&#10;        Grand_Prix__r.Name&#10;FROM Race_Result__c" />
                   <option name="name" value="SOQL Query 1" />
                 </SoqlQuerySavedDocument>
               </list>
@@ -149,10 +168,257 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;ToolWindowRun.ShowToolbar&quot;: &quot;false&quot;,
     &quot;last_opened_file_path&quot;: &quot;E:/Salesforce/Courses/SalesforceAvenga&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
+  <component name="RunManager" selected="Apex Unit Tests.RaceResultTriggerTest.increaseHatTrick">
+    <configuration name="RaceResultTriggerTest.decreaseHatTrick" type="com.illuminatedcloud.intellij" factoryName="Apex Unit Tests" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <option name="allTests" value="false" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="apexLogLevel" value="DEBUG" />
+      <option name="calloutsLogLevel" value="INFO" />
+      <option name="connectionName" value="SalesforceAvenga" />
+      <option name="connectionType" value="MDAPI" />
+      <option name="contextConfiguration" value="true" />
+      <option name="databaseLogLevel" value="INFO" />
+      <option name="directoryPath" />
+      <option name="logLevelsInitialized" value="false" />
+      <option name="moduleToTestClassNames">
+        <map>
+          <entry key="SalesforceAvenga">
+            <value>
+              <set>
+                <option value="RaceResultTriggerTest" />
+              </set>
+            </value>
+          </entry>
+        </map>
+      </option>
+      <option name="nbaLogLevel" value="INFO" />
+      <option name="profilingLogLevel" value="INFO" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <option name="systemLogLevel" value="DEBUG" />
+      <option name="testClassToTestMethodNames">
+        <map>
+          <entry key="RaceResultTriggerTest">
+            <value>
+              <set>
+                <option value="decreaseHatTrick" />
+              </set>
+            </value>
+          </entry>
+        </map>
+      </option>
+      <option name="testSuiteName" />
+      <option name="validationLogLevel" value="INFO" />
+      <option name="visualforceLogLevel" value="INFO" />
+      <option name="waveLogLevel" value="INFO" />
+      <option name="workflowLogLevel" value="INFO" />
+      <method v="2" />
+    </configuration>
+    <configuration name="RaceResultTriggerTest.increaseHatTrick" type="com.illuminatedcloud.intellij" factoryName="Apex Unit Tests" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <option name="allTests" value="false" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="apexLogLevel" value="DEBUG" />
+      <option name="calloutsLogLevel" value="INFO" />
+      <option name="connectionName" value="SalesforceAvenga" />
+      <option name="connectionType" value="MDAPI" />
+      <option name="contextConfiguration" value="true" />
+      <option name="databaseLogLevel" value="INFO" />
+      <option name="directoryPath" />
+      <option name="logLevelsInitialized" value="false" />
+      <option name="moduleToTestClassNames">
+        <map>
+          <entry key="SalesforceAvenga">
+            <value>
+              <set>
+                <option value="RaceResultTriggerTest" />
+              </set>
+            </value>
+          </entry>
+        </map>
+      </option>
+      <option name="nbaLogLevel" value="INFO" />
+      <option name="profilingLogLevel" value="INFO" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <option name="systemLogLevel" value="DEBUG" />
+      <option name="testClassToTestMethodNames">
+        <map>
+          <entry key="RaceResultTriggerTest">
+            <value>
+              <set>
+                <option value="increaseHatTrick" />
+              </set>
+            </value>
+          </entry>
+        </map>
+      </option>
+      <option name="testSuiteName" />
+      <option name="validationLogLevel" value="INFO" />
+      <option name="visualforceLogLevel" value="INFO" />
+      <option name="waveLogLevel" value="INFO" />
+      <option name="workflowLogLevel" value="INFO" />
+      <method v="2" />
+    </configuration>
+    <configuration name="RaceResultTriggerTest.insertValidationTest" type="com.illuminatedcloud.intellij" factoryName="Apex Unit Tests" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <option name="allTests" value="false" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="apexLogLevel" value="DEBUG" />
+      <option name="calloutsLogLevel" value="INFO" />
+      <option name="connectionName" value="SalesforceAvenga" />
+      <option name="connectionType" value="MDAPI" />
+      <option name="contextConfiguration" value="true" />
+      <option name="databaseLogLevel" value="INFO" />
+      <option name="directoryPath" />
+      <option name="logLevelsInitialized" value="false" />
+      <option name="moduleToTestClassNames">
+        <map>
+          <entry key="SalesforceAvenga">
+            <value>
+              <set>
+                <option value="RaceResultTriggerTest" />
+              </set>
+            </value>
+          </entry>
+        </map>
+      </option>
+      <option name="nbaLogLevel" value="INFO" />
+      <option name="profilingLogLevel" value="INFO" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <option name="systemLogLevel" value="DEBUG" />
+      <option name="testClassToTestMethodNames">
+        <map>
+          <entry key="RaceResultTriggerTest">
+            <value>
+              <set>
+                <option value="insertValidationTest" />
+              </set>
+            </value>
+          </entry>
+        </map>
+      </option>
+      <option name="testSuiteName" />
+      <option name="validationLogLevel" value="INFO" />
+      <option name="visualforceLogLevel" value="INFO" />
+      <option name="waveLogLevel" value="INFO" />
+      <option name="workflowLogLevel" value="INFO" />
+      <method v="2" />
+    </configuration>
+    <configuration name="RaceResultTriggerTest.updateValidationRacerTest" type="com.illuminatedcloud.intellij" factoryName="Apex Unit Tests" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <option name="allTests" value="false" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="apexLogLevel" value="DEBUG" />
+      <option name="calloutsLogLevel" value="INFO" />
+      <option name="connectionName" value="SalesforceAvenga" />
+      <option name="connectionType" value="MDAPI" />
+      <option name="contextConfiguration" value="true" />
+      <option name="databaseLogLevel" value="INFO" />
+      <option name="directoryPath" />
+      <option name="logLevelsInitialized" value="false" />
+      <option name="moduleToTestClassNames">
+        <map>
+          <entry key="SalesforceAvenga">
+            <value>
+              <set>
+                <option value="RaceResultTriggerTest" />
+              </set>
+            </value>
+          </entry>
+        </map>
+      </option>
+      <option name="nbaLogLevel" value="INFO" />
+      <option name="profilingLogLevel" value="INFO" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <option name="systemLogLevel" value="DEBUG" />
+      <option name="testClassToTestMethodNames">
+        <map>
+          <entry key="RaceResultTriggerTest">
+            <value>
+              <set>
+                <option value="updateValidationRacerTest" />
+              </set>
+            </value>
+          </entry>
+        </map>
+      </option>
+      <option name="testSuiteName" />
+      <option name="validationLogLevel" value="INFO" />
+      <option name="visualforceLogLevel" value="INFO" />
+      <option name="waveLogLevel" value="INFO" />
+      <option name="workflowLogLevel" value="INFO" />
+      <method v="2" />
+    </configuration>
+    <configuration name="RaceResultTriggerTest.updateValidationTest" type="com.illuminatedcloud.intellij" factoryName="Apex Unit Tests" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <option name="allTests" value="false" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="apexLogLevel" value="DEBUG" />
+      <option name="calloutsLogLevel" value="INFO" />
+      <option name="connectionName" value="SalesforceAvenga" />
+      <option name="connectionType" value="MDAPI" />
+      <option name="contextConfiguration" value="true" />
+      <option name="databaseLogLevel" value="INFO" />
+      <option name="directoryPath" />
+      <option name="logLevelsInitialized" value="false" />
+      <option name="moduleToTestClassNames">
+        <map>
+          <entry key="SalesforceAvenga">
+            <value>
+              <set>
+                <option value="RaceResultTriggerTest" />
+              </set>
+            </value>
+          </entry>
+        </map>
+      </option>
+      <option name="nbaLogLevel" value="INFO" />
+      <option name="profilingLogLevel" value="INFO" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <option name="systemLogLevel" value="DEBUG" />
+      <option name="testClassToTestMethodNames">
+        <map>
+          <entry key="RaceResultTriggerTest">
+            <value>
+              <set>
+                <option value="updateValidationTest" />
+              </set>
+            </value>
+          </entry>
+        </map>
+      </option>
+      <option name="testSuiteName" />
+      <option name="validationLogLevel" value="INFO" />
+      <option name="visualforceLogLevel" value="INFO" />
+      <option name="waveLogLevel" value="INFO" />
+      <option name="workflowLogLevel" value="INFO" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Apex Unit Tests.RaceResultTriggerTest.increaseHatTrick" />
+        <item itemvalue="Apex Unit Tests.RaceResultTriggerTest.decreaseHatTrick" />
+        <item itemvalue="Apex Unit Tests.RaceResultTriggerTest.updateValidationRacerTest" />
+        <item itemvalue="Apex Unit Tests.RaceResultTriggerTest.updateValidationTest" />
+        <item itemvalue="Apex Unit Tests.RaceResultTriggerTest.insertValidationTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -162,6 +428,14 @@
       <option name="presentableId" value="Default" />
       <updated>1665578053233</updated>
     </task>
+    <task id="LOCAL-00001" summary="init commit">
+      <created>1666268901023</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1666268901023</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -180,6 +454,17 @@
                   <entry key="Show.Git.Branches" value="true" />
                 </map>
               </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/dev" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
             </State>
           </value>
         </entry>
@@ -189,5 +474,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init commit" />
     <option name="LAST_COMMIT_MESSAGE" value="init commit" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/SalesforceAvenga$RaceResultTriggerTest_increaseHatTrick.ic2" NAME="SalesforceAvenga Coverage Results" MODIFIED="1666616259649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="Apex" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true" PROJECT_NAME="SalesforceAvenga" CONNECTION_NAME="SalesforceAvenga" CONNECTION_TYPE="MDAPI" />
   </component>
 </project>

@@ -43,10 +43,15 @@ public with sharing class RaceResultTriggerHandler {
         }
     }
 
-    public static void raceResultUpdateDuplicateValidation(List<Race_Result__c> newList ,Map<Id, Race_Result__c> oldRaceResultsMap) {
+    public static void raceResultUpdateDuplicateValidation(
+            List<Race_Result__c> newList, Map<Id, Race_Result__c> oldRaceResultsMap
+    ) {
         Set<Id> setRaceIds = new Set<Id>();
-        for (Race_Result__c raceResult : newList){
-            setRaceIds.add(raceResult.Grand_Prix__c);
+        for (Race_Result__c newResult : newList){
+            Race_Result__c result = oldRaceResultsMap.get(newResult.Id);
+            if ((newResult.Position__c != result.Position__c) || (newResult.Racer__c != result.Racer__c)) {
+                setRaceIds.add(newResult.Grand_Prix__c);
+            }
         }
 
         if (setRaceIds.size() > 0) {
@@ -95,7 +100,7 @@ public with sharing class RaceResultTriggerHandler {
         Map<Id, Race_Result__c> raceResultMap = new Map<Id, Race_Result__c>();
 
         for (Race_Result__c raceResult: raceResults){
-            if (raceResult.Position__c == 1 && raceResult.Is_Fastest_Lap__c) {
+            if (FormulaOneServices.isHatTrick(raceResult)) {
                 raceResultMap.put(raceResult.Racer__c, raceResult);
             }
         }
@@ -126,22 +131,18 @@ public with sharing class RaceResultTriggerHandler {
             Race_Result__c oldResult = oldRaceResultsMap.get(newResult.Id);
 
             if (oldResult.Racer__c == newResult.Racer__c) {
-                if ((oldResult.Position__c == 1 && newResult.Position__c != 1) ||
-                        (oldResult.Is_Fastest_Lap__c && !newResult.Is_Fastest_Lap__c)) {
-
+                if (FormulaOneServices.isHatTrick(oldResult) && !FormulaOneServices.isHatTrick(newResult)) {
                     minusHTMap.put(newResult.Racer__c, newResult);
 
-                } else if ((oldResult.Position__c != 1 && newResult.Position__c == 1 && newResult.Is_Fastest_Lap__c) ||
-                        (!oldResult.Is_Fastest_Lap__c && newResult.Is_Fastest_Lap__c && newResult.Position__c == 1)) {
-
+                } else if (!FormulaOneServices.isHatTrick(oldResult) && FormulaOneServices.isHatTrick(newResult)) {
                     plusHTMap.put(newResult.Racer__c, newResult);
                 }
             } else if (oldResult.Racer__c != newResult.Racer__c) {
-                if (oldResult.Position__c == 1 && oldResult.Is_Fastest_Lap__c) {
+                if (FormulaOneServices.isHatTrick(oldResult)) {
 
                     minusHTMap.put(oldResult.Racer__c, oldResult);
 
-                    if (newResult.Position__c == 1 && newResult.Is_Fastest_Lap__c) {
+                    if (FormulaOneServices.isHatTrick(newResult)) {
 
                         plusHTMap.put(newResult.Racer__c, newResult);
                     }
@@ -158,7 +159,6 @@ public with sharing class RaceResultTriggerHandler {
                         Id IN :minusHTMap.keySet()
         ];
 
-
         for (Driver__c driver : drivers){
             if (plusHTMap.containsKey(driver.Id)) {
                 driver.Hat_Tricks__c += 1;
@@ -169,6 +169,5 @@ public with sharing class RaceResultTriggerHandler {
 
         update drivers;
     }
-
 
 }
