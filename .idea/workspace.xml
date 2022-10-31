@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a78a4bbe-d7b2-4781-bb1b-131426677e07" name="Changes" comment="lwc features 3">
+    <list default="true" id="a78a4bbe-d7b2-4781-bb1b-131426677e07" name="Changes" comment="123">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lwc/weatherBadge/weatherBadge.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/lwc/weatherBadge/weatherBadge.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lwc/weatherBadge/weatherBadge.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/lwc/weatherBadge/weatherBadge.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +82,7 @@
                       <entry key="APEXTRIGGER:RACERESULTTRIGGER" value="1666219016167" />
                       <entry key="LIGHTNINGCOMPONENTBUNDLE:LWCTEST" value="1666698330000" />
                       <entry key="LIGHTNINGCOMPONENTBUNDLE:RALATEDRACERESULT" value="1666687006144" />
-                      <entry key="LIGHTNINGCOMPONENTBUNDLE:WEATHERBADGE" value="1667225718848" />
+                      <entry key="LIGHTNINGCOMPONENTBUNDLE:WEATHERBADGE" value="1667227376427" />
                       <entry key="LIGHTNINGCOMPONENTBUNDLE:WONRACERESULTJANE" value="1667120887781" />
                     </map>
                   </option>
@@ -443,7 +442,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667221037608</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="123">
+      <created>1667226238259</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1667226238259</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -483,7 +489,8 @@
     <MESSAGE value="init commit" />
     <MESSAGE value="lwc" />
     <MESSAGE value="lwc features 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="lwc features 3" />
+    <MESSAGE value="123" />
+    <option name="LAST_COMMIT_MESSAGE" value="123" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/SalesforceAvenga$RaceResultTriggerTest_increaseHatTrick.ic2" NAME="SalesforceAvenga Coverage Results" MODIFIED="1666616259649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="Apex" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true" PROJECT_NAME="SalesforceAvenga" CONNECTION_NAME="SalesforceAvenga" CONNECTION_TYPE="MDAPI" />
