@@ -1,24 +1,23 @@
-import { LightningElement, api} from 'lwc';
+import { LightningElement, api, track} from 'lwc';
 import weatherCallout from '@salesforce/apex/WeatherController.weatherCallout';
 
 
 export default class weatherBadge extends LightningElement {
 
-    @api
-    get tempAndMetric(){
-        return weatherCallout().then((response) => {
-        console.log("response from weatherCallout promise", response);
-        return response;
-        })
+    @track test
+    constructor(){
+        super();
+        this.tempAndMetric();
     }
 
+    @api
+    async tempAndMetric(){
+        await weatherCallout().then(somedata => this.test = somedata);
+        console.log(weatherCallout().then(somedata => console.log(somedata)));
+    }
 
-//    const myPromise = new Promise()
-//
-//
-//    temperature;
-//    weatherCallout().then((value) => {
-//        temperature = value;
-//    });
+    get geter(){
+        return this.tempAndMetric();
+    }
 
 }
