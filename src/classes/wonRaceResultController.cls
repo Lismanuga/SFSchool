@@ -1,5 +1,3 @@
-
-
 public with sharing class wonRaceResultController {
     @AuraEnabled (Cacheable=true)
     public static List<RRDTO> getRaceResultsList(Id recordId) {
@@ -18,7 +16,6 @@ public with sharing class wonRaceResultController {
         }
         return result;
     }
-
     public class RRDTO {
 
         @AuraEnabled
